@@ -1,0 +1,10 @@
+.welcome-text {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.username {
+  color: #00eeff;
+  font-weight: bold;
+}

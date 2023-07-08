@@ -1,0 +1,80 @@
+.resume-uploader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.file-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #221a1d;
+}
+
+label[for="resume"] {
+  cursor: pointer;
+}
+
+label[for="resume"]:hover {
+  text-decoration: underline;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.file-input-label {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  /* cursor: pointer; */
+}
+
+/* .file-input-label:hover {
+  background-color: #f0f0f0;
+} */
+
+.upload-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-button:hover {
+  background-color: #0056b3;
+}
+
+.file-info {
+  display: flex;
+  align-items: center;
+}
+
+.delete-button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
