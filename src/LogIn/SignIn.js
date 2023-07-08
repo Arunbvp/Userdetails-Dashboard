@@ -8,6 +8,7 @@ import {
 import googleLogo from "../assets/login/google.png";
 import "./SignIn.css";
 import UserInfo from "../UserInfo/UserInfo";
+import { appInsights } from "../AppInsights/AppInsights";
 
 const SignIn = ({ onLogin }) => {
   const msalConfig = {
@@ -51,6 +52,8 @@ const SignIn = ({ onLogin }) => {
       console.log("Logout error", error);
     }
   };
+
+  appInsights.trackPageView({ name: "SignIn" });
 
   return (
     <div className="sign-in-container">
