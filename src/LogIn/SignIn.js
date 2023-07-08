@@ -16,7 +16,8 @@ const SignIn = ({ onLogin }) => {
       clientId: "50267645-eba3-43a9-85b7-dc4d82d93e9f",
       authority:
         "https://login.microsoftonline.com/ffc63b3c-58bc-41c5-9a01-9394d32c4fe6",
-      redirectUri: "http://localhost:3000/",
+      // redirectUri: "http://localhost:3000/",
+      redirectUri: "https://userdashboardreactwebapp.azurewebsites.net/",
     },
     cache: {
       cacheLocation: "sessionStorage",
@@ -86,7 +87,8 @@ const App = () => {
       clientId: "50267645-eba3-43a9-85b7-dc4d82d93e9f",
       authority:
         "https://login.microsoftonline.com/ffc63b3c-58bc-41c5-9a01-9394d32c4fe6",
-      redirectUri: "http://localhost:3000/",
+      // redirectUri: "http://localhost:3000/",
+      redirectUri: "https://userdashboardreactwebapp.azurewebsites.net/",
     },
     cache: {
       cacheLocation: "sessionStorage",
